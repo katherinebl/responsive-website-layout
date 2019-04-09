@@ -41,6 +41,101 @@ p {
 }
 
 .btn:hover {
+  background: #00ffcc;
+  color: #19194d;
+}
+
+/* Header Showcase */
+
+#showcase {
+  min-height: 450px;
+}
+
+#showcase h1 {
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+
+#showcase .content-wrap,
+#section-a .content-wrap {
+  padding: 0 1.5em;
+}
+
+#showcase .bg-image {
+  position: absolute;
+  background: url("../images/showcase.jpg") center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+/* Section A */
+
+#section-a {
   background: #ececf9;
   color: #19194d;
+  padding-bottom: 2em;
+}
+
+/* Section B */
+
+#section-b {
+  padding: 2em 1em;
+}
+
+#section-b ul {
+  list-style: none;
+  padding: 0;
+}
+
+#section-b li {
+  background: #ececf9;
+  color: #19194d;
+  margin-bottom: 1em;
+}
+
+/* #section-b p {
+  padding: 1em 2em;
+  margin: 0;
+} */
+
+.card-content {
+  padding: 1.5em;
+}
+
+/* Section C */
+
+#section-c {
+  background: #ececf9;
+  color: #19194d;
+  padding: 2em;
+}
+
+/* Section D - Boxes */
+
+#section-d .box {
+  padding: 2em;
+}
+
+#section-d .box:first-child {
+  background: #00ffcc;
+  color: #19194d;
+}
+
+#section-d .box:last-child {
+  background: #060613;
+  color: #00ffcc;
+}
+
+/* Footer */
+
+#main-footer {
+  padding: 2em;
+}
+
+#main-footer a {
+  text-decoration: none;
+  color: #00ffcc;
 }
